@@ -19,6 +19,7 @@ function App() {
     const newTodos = [...incompleteTodos, todoText];
     setIncompleteTodos(newTodos);
     setTodoText("");
+    
   };
   const onClickDelete = (index) => {
     const newTodos = [...incompleteTodos];
