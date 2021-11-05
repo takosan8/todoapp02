@@ -26,7 +26,7 @@ function App() {
     setIncompleteTodos(newTodos);
   };
   const onClickComplete = (index) => {
-    const newIncompleteTodos = [...incompleteTodos];
+    const newIncompleteTodos = [...incompleteTodos];gi
     newIncompleteTodos.splice(index, 1);
     const newCompleteTodos = [...completeTodos, incompleteTodos[index]];
     setIncompleteTodos(newIncompleteTodos);
@@ -65,5 +65,4 @@ function App() {
   </>
   );
 }
-
 export default App;
