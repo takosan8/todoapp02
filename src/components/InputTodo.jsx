@@ -6,7 +6,7 @@ export const InputTodo = (props) => {
     <div className="input-area">
       <input
         disabled={disabled}
-        placeholder="Type some todo"
+        placeholder="Enter new todo"
         value={todoText}
         onChange={onChange}
       />

@@ -4,7 +4,7 @@ export const CompleteTodos = (props) => {
   const { todos, onClickBack } = props;
   return (
     <div className="complete-area">
-      <h2 className="title">complete</h2>
+      <h2 className="title">Done</h2>
       <ul>
         {todos.map((todo, index) => {
           return (
