@@ -1,7 +1,8 @@
 import React from "react";
 
 export const IncompleteTodos = (props) => {
-  const { todos, onClickComplete, onClickDelete,onClickOngoing } = props;
+  //propsをApp.jsxからもらってきてこのコンポーネント内で展開する
+  const { todos, onClickComplete, onClickDelete,onClickOngoing,onClickEdit } = props;
   
   return (
     <div className="incomplete-area">
@@ -14,6 +15,7 @@ export const IncompleteTodos = (props) => {
               <button onClick={() => onClickComplete(index)}>DONE</button>
               <button onClick={() => onClickDelete(index)} className="delete">DELETE</button>
               <button onClick={() => onClickOngoing(index)} className="ongoing">ONGOING</button>
+              <button onClick={() => onClickEdit(index)} className="important">★</button>
             </div>
           );
         })}

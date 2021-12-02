@@ -79,6 +79,15 @@ body {
   .list-row button.ongoing{
     background-color: #e7e7e7;
   }
+  .list-row button.ongoing-active{
+    background-color: yellow!important;
+  }
+  .list-row button.important{
+    background-color: #e7e7e7;
+  }
+  .list-row button.important-active{
+    background-color: red!important;
+  }
   .list-row span{
     background-color: #333;
     color:#fff;

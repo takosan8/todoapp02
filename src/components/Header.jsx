@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Header = () =>{
-    const today = new Date;
+    const today = new Date();
 
     // console.log(today);
     return (
