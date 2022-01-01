@@ -40,8 +40,8 @@ export const App = () => {
       }
       return todo;
     });
-    console.log("=== Original todos ===");
-    todos.map((todo) => console.log(`id: ${todo.id}, value: ${todo.value}`));
+    // console.log("=== Original todos ===");
+    // todos.map((todo) => console.log(`id: ${todo.id}, value: ${todo.value}`));
     setTodos(newTodos);
   };
   const handleOnCheck = (id: number, checked: boolean) => {
