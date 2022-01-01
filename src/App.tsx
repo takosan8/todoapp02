@@ -115,7 +115,7 @@ export const App = () => {
       </div>
       <div className="main">
         {/* filter */}
-        {/* // e.target.value: string を Filter 型にキャストする */}
+        {/* // e.target.value: string を Filter 型にキャストします */}
         <select
           defaultValue="all"
           onChange={(e) => setFilter(e.target.value as Filter)}
